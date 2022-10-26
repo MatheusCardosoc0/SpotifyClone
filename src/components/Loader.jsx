@@ -1,5 +1,10 @@
-const Loader = () => (
-  <div>Loader</div>
-);
+import { loader } from '../assets'
 
-export default Loader;
+const Loader = ({ title }) => (
+  <div className="w-full justify-center flex items-center flex-col">
+    <img src={loader} alt="loader" className="w-32 h-32 object-contain" />
+    <h1 className="font-bold text-2xl text-white mt-2">{title || 'Carreagand...'}</h1>
+  </div>
+)
+
+export default Loader
