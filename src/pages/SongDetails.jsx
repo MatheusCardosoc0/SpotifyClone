@@ -4,7 +4,7 @@ import { DetailsHeader, Loader, RelatedSongs } from '../components'
 
 import { setActiveSong, playPause } from '../redux/features/playerSlice'
 
-import { useGetSongDetailsQuery, useGetSongRelatedQuery } from '../redux/services/shazamCore'
+import {useGetSongDetailsQuery, useGetSongRelatedQuery } from '../redux/services/shazamCore'
 
 const SongDetails = () => {
   const { songid } = useParams()

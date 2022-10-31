@@ -7,7 +7,7 @@ import { SongCard } from '../components'
 import Error from '../components/Error'
 import Loader from '../components/Loader'
 
-import { useGetSongsByCountryQuery } from '../redux/services/shazamCore'
+import {useGetSongsByCountryQuery } from '../redux/services/shazamCore'
 
 const AroundYou = () => {
   const [Country, setCountry] = useState('')
